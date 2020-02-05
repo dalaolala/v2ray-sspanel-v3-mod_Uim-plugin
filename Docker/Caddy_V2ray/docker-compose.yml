@@ -2,7 +2,7 @@ version: '2'
 
 services:
  v2ray:
-    image: ephz3nt/v2ray_v3:go
+    image: hulisang/v2ray_v3:go_update
     restart: always
     network_mode: "host"
     environment:
